@@ -1,0 +1,19 @@
+# This is YAML for the File Matching table.
+# The layout is an array of hashes, with sample below using defaults.
+# Order is important, the first matching accounts are used.
+
+---
+FileRe: 'm/PersonalSavings.*\.csv/'
+DefaultSource: 'Assets:Savings:Personal'
+RecordRE: '^[0-9][0-9]/[0-9][0-9]/'
+AmountField: 'Transaction Amount'
+DetectDups: 1
+OutputFile: 'Personal/Savings.dat'
+DescField: 'Description'
+PreProcessFile: 'Preprocess.yaml'
+CheckField: 'Check Number'
+CSVFields: 'Posted Date,Check Number,Description,Transaction Amount,Principal Amount,Interest Amount,Balance,Fee Amount'
+DateField: 'Posted Date'
+AccountMatchFile: 'AccountMatches.yaml'
+Cleared: ''
+OutputDir: '.'

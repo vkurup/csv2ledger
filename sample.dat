@@ -1,0 +1,24 @@
+2008/07/01  (123456) Bonnies
+	Assets:Unknown	                        -45.00
+	Expenses:Eating Out	
+    (CSV2Ledger:MD5Sum)   ; MD5Sum: 4ffe880d60cfad028ec008ad93bba250
+    (CSV2Ledger:CSV)      ; CSV: 07/01/2008,123456,"PAID OUT - 01JUL 00:00:00 BEEF & SEAFOOD",-45.00,0.00,0.00,00.00,0.00
+
+2008/07/01  (123456) AMC Theater
+	Assets:Unknown	                        -20.50
+	Expenses:Entertainment	
+    (CSV2Ledger:MD5Sum)   ; MD5Sum: 0353fc6caa20d32509d8d67b1099c2b5
+    (CSV2Ledger:CSV)      ; CSV: 07/01/2008,123456,"PAID OUT - 01JUL 00:00:00 AMC",-20.50,0.00,0.00,00.00,0.00
+
+2008/03/01  (123456) Vietnamese Diner
+	Assets:Unknown	                        -50.00
+	Expenses:Eating Out	
+    (CSV2Ledger:MD5Sum)   ; MD5Sum: a22caf103c9e85806be5194c66110a13
+    (CSV2Ledger:CSV)      ; CSV: 03/01/2008,123456,"PAID OUT - 01MAR 00:00:00 PHO",-50.00,0.00,0.00,00.00,0.00
+
+2008/03/01  (123456) Barber Shop
+	Assets:Personal Grooming	                        -32.00
+	Expenses:Hair	
+    (CSV2Ledger:MD5Sum)   ; MD5Sum: d4131d92ac567a9f8719643773763d06
+    (CSV2Ledger:CSV)      ; CSV: 03/01/2008,123456,"PAID OUT - 01MAR 00:00:00 HAIRCUTS",-32.00,0.00,0.00,00.00,0.00
+

@@ -1,0 +1,21 @@
+# This is YAML for the Account Matching table.
+# The first entry is a regexp to match a CSV record postprocessing.
+# Second entry is the source account (~ for default).
+# Third entry is destination account.
+# Order is important, the first matching accounts are used.
+---
+- 'm/Barber/'
+- 'Assets:Personal Grooming'
+- 'Expenses:Hair'
+---
+- 'm/Vietnamese/'
+- ''
+- 'Expenses:Eating Out'
+---
+- 'm/Bonnies/'
+- ''
+- 'Expenses:Eating Out'
+---
+- 'm/Theater/'
+- ''
+- 'Expenses:Entertainment'

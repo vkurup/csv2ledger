@@ -1,0 +1,15 @@
+# This is YAML of preprocessing table. 
+# First entry is matchign regexp, if the raw CSV record matches, then
+# the substitution (second entry) is applied.
+---
+- 'm/AMC/'
+- 's/,".*AMC.*",/,"AMC Theater",/'
+---
+- 'm/BEEF & SEAFOOD/'
+- 's/,".*BEEF & SEAFOOD.*",/,"Bonnies",/'
+---
+- 'm/PHO/'
+- 's/,".*PHO.*",/,"Vietnamese Diner",/'
+---
+- 'm/HAIRCUTS/'
+- 's/,".*HAIRCUTS.*",/,"Barber Shop",/'

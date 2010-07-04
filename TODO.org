@@ -1,0 +1,35 @@
+
+* Features
+
+** TODO Add Filename matching for default account
+
+If importing from PersonalChecking-*.csv, the default account should
+be "Assets:Checking:Personal", and the output file should be
+"$LEDGERDIR/Personal/PersonalChecking.dat".
+
+How would that work with the default account that can be specified in
+the Ledger file itself?
+
+** DONE Add sort
+   CLOSED: [2008-08-13 Wed 00:25]
+
+I just noticed my bank sorted my statements backward, and of course
+CSV2L outputs them in that order. Sorting though is a PITA, given that
+I'll have to buffer the output (not input, format can vary). I would
+prefer to sort on the date field in the output once it is normalized.
+
+Maybe I'll write out to a big hash, one node per date with an array
+for strings of output. Then I can just sort by keys and output the
+arrays.
+
+This would impact the (nasty) way I do duplicate detection now...
+
+I can grep a filehandle...
+
+Perhaps the best way to handle this atm is to expect a sorted input,
+it wasn't a big deal to sort my CSVs prior to importing.
+
+** TODO Account matching autoclear
+
+Allow account matches to specify clear flag.
+
