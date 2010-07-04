@@ -50,7 +50,7 @@ use warnings;
 
 # Modules
 use YAML;            # Dispatch Table Loading
-use Getopt::Long;    # Options processing
+use Getopt::Long qw(:config bundling);    # Options processing
 use File::Find;
 use Date::Format;    # Date conversion
 use Date::Parse;
