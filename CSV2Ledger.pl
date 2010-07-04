@@ -108,8 +108,8 @@ my $MatchedFiles = 0;
     ? "./AccountMatches.yaml"
     : undef,
 
-    'PreProcessFile' => -e "./Preprocess.yaml"
-    ? "./Preprocess.yaml"
+    'PreProcessFile' => -e "./PreProcess.yaml"
+    ? "./PreProcess.yaml"
     : undef,
 
     # Simple options
@@ -121,7 +121,7 @@ my $MatchedFiles = 0;
     'FindDir'    => ".",
     'InputFile'  => undef,
     'OutputDir'  => ".",
-    'OutputFile' => "./CSV2Ledger.dat",
+    'OutputFile' => "CSV2Ledger.dat",
 
 );
 
