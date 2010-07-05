@@ -3,5 +3,3 @@ CSV2Ledger
 Reads a CSV file from a financial institution and outputs into Ledger format.
 
 Please see comments in the Perl script and YAML files for more information.
-
-Forked from Russell Adams bzr rep. Version 1.5.
